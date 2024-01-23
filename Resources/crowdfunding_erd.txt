@@ -1,0 +1,39 @@
+# Modify this code to update the DB schema diagram.
+# To reset the sample schema, replace everything with
+# two dots ('..' - without quotes).
+Category
+-----
+category_id PK varchar
+category varchar 
+
+SubCategory
+------
+subcategory_id PK varchar
+subcategory varchar 
+
+
+Contact 
+----
+contact_id PK int
+first_name varchar
+last_name varchar
+email varchar
+
+
+Campaign 
+------------
+cf_id PK int
+contact_id int FK - Contact.contact_id
+company_name varchar 
+description varchar
+goal float
+pledged float
+outcome varchar
+backers_count int
+country varchar
+currency varchar
+launched_date date
+end_date date
+category_id varchar FK >- Category.category_id
+subcategory_id varchar FK >- SubCategory.subcategory_id
+

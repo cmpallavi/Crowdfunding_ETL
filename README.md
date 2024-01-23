@@ -8,5 +8,6 @@ ETL_Mini_Project_SKostic_PDeshmukh.ipynb - Contains changes made by both Pallavi
 * Sanja worked on changes to create category and subcategory csv files and Option 1 for contacts dataframe
 * Pallavi worked on changes to create campaign csv file and Option 2 for contacts dataframe.
 
+We worked on the crowdfunding db together.
 
 
